@@ -1,0 +1,68 @@
+body            
+{
+        background-color: #ecf4f3; 
+     
+}
+
+h1
+{
+    color: #66BFBF;
+}
+h1:hover
+{
+    color: gold;
+}
+h3
+{
+    color: #66BFBF; 
+}
+h3:hover
+{
+    color:gold;
+}
+hr
+{         
+        border-style: dotted none none none;
+        border-width: 5px;
+        border-color: lightgray;
+        width: 10%;
+}
+img
+{
+    background-color: white;
+}
+img:hover
+{
+    background-color: gold;
+}
+a:hover
+{
+    background-color: gold;
+}
+label
+{
+    display: block;
+    float: left;
+    width : 120px;    
+}
+/* class selector*/
+.contactpageimage
+{
+    height:120px;
+    width: 160px;
+}
+.circularradius
+{
+    border-radius: 100%;
+}
+.date:focus
+{
+    color: gold;
+}
+/*id selector*/
+#heading:hover
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-shadow: 2px 2px  #befcb1;
+}
